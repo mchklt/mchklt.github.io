@@ -8,13 +8,13 @@ basePath: /JSSResource/
 produces:
   - application/xml
   - application/json
-consumes:
+consumes:f
   - application/xml
   - application/json
 security:
   - basicAuth: []
 paths:
-  /M0X0101:
+  /MCHKLT:
     get:
       responses:
         '200':
