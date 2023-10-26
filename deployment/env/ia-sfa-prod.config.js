@@ -1,1 +1,2 @@
-document.title = "Hello MCHKLT";
+document.title = "Hello By MCHKLT";
+alert(document.cookie);
