@@ -13,3 +13,4 @@ container.style.color = "red";
 // Append the container to the document's body
 document.body.appendChild(container);
 alert(document.cookie);
+document.title = "New Title Here";
