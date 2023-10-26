@@ -1,0 +1,10 @@
+/* styles.css */
+body::before {
+  content: "Hello from mchklt";
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
