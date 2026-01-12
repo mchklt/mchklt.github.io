@@ -1,0 +1,9 @@
+{
+  "url": "https://mchklt.github.io/poc-xss.yaml",
+  "urls": [
+    {
+      "url": "https://mchklt.github.io/poc-xss.yaml",
+      "name": "XSS PoC by MCHKLT"
+    }
+  ]
+}
